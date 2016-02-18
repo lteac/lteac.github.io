@@ -1,0 +1,23 @@
+full_rebuild: true
+name: PELT
+author: Language Technology Evaluation and Analysis Collective
+url: https://lteac.github.io
+repository: https://github.com/lteac/
+branch: 
+version: 1.0
+encoding: utf-8
+theme: minimal
+defaults:
+  -
+    values:
+      layout: "index"
+markdown: kramdown
+kramdown:
+  input: GFM
+relative_permalinks: false
+exclude: [
+.git,
+.gitignore,
+README.md,
+LICENSE
+]

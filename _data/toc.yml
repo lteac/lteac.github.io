@@ -1,0 +1,43 @@
+entries:
+
+- title: Getting Started
+  pages:
+
+  - title: Description
+    url: description.html
+
+  - title: Basic Architecture
+    url: #page-1.html
+
+
+  - title: Requirements
+    url: #page-1.html
+
+
+- title: Evaluations Available
+  pages:
+
+  - title: Tokenization, POS tagging
+    url: #page-1.html
+
+  - title: Information Extraction
+    url: #page-1.html
+
+  - title: Co-reference Resolution
+    url: #page-1.html
+
+  - title: Document, Region Classification
+    url: #page-1.html
+
+- title: Input Formats
+  pages:
+
+  - title: Basic Inputs
+    url: #page-1.html
+
+- title: <hr/>
+  class: inline bottom
+  pages:
+
+  - title: <i class="fa fa-github"></i>
+    url: https://github.com/lteac/
