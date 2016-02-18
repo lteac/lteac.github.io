@@ -12,8 +12,6 @@ defaults:
     values:
       layout: "index"
 markdown: kramdown
-kramdown:
-  input: GFM
 relative_permalinks: false
 exclude: [
 .git,
@@ -21,3 +19,12 @@ exclude: [
 README.md,
 LICENSE
 ]
+
+
+github: [metadata]
+kramdown:
+ input: GFM
+ hard_wrap: false
+gems:
+ - jekyll-coffeescript
+ - jekyll-paginate
